@@ -1,0 +1,97 @@
+Button
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+Label
+{
+    -fx-font-weight: bold;
+    -fx-font-size: 2em;
+}
+
+#hb
+{
+    -fx-background-color: white;
+}
+
+#ekran
+{
+    -fx-background-color: #dfdfdf;
+}
+
+#green
+{
+    -fx-background-color: green;
+}
+
+#white
+{
+    -fx-background-color: white;
+}
+
+#brown
+{
+    -fx-background-color: brown;
+}
+
+#blue
+{
+    -fx-background-color: blue;
+}
+
+#gray
+{
+    -fx-background-color: gray;
+}
+
+#black
+{
+    -fx-background-color: black;
+}
+
+#xbtn
+{
+    -fx-background-image: url('../img/exit.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    transition-duration: 0.5;
+}
+
+#xbtn:hover
+{
+    -fx-background-image: url('../img/exit_white.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: red;
+}
+
+#maxbtn
+{
+    -fx-background-image: url('../img/maximize_1.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#maxbtn:hover
+{
+    -fx-background-image: url('../img/maximize_1_white.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #aaaaaa;
+}
+
+#minbtn
+{
+    -fx-background-image: url('../img/minimize.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+#minbtn:hover
+{
+    -fx-background-image: url('../img/minimize_white.png');
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: #aaaaaa;
+}

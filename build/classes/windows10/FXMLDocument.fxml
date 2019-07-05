@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: black;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="windows10.FXMLDocumentController">
+   <top>
+      <HBox fx:id="hb" nodeOrientation="RIGHT_TO_LEFT" prefHeight="26.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#Exit" prefHeight="25.0" prefWidth="45.0" fx:id="xbtn" />
+            <Button fx:id="maxbtn" mnemonicParsing="false" onAction="#maximize" prefHeight="25.0" prefWidth="45.0" />
+            <Button fx:id="minbtn" mnemonicParsing="false" onAction="#Minimize" prefHeight="25.0" prefWidth="45.0" />
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <Pane fx:id="ekran" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane fx:id="gray" layoutX="14.0" layoutY="14.0" onMouseClicked="#ChangeStyleGray" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="Gray" />
+               </children>
+            </Pane>
+            <Pane fx:id="green" layoutX="224.0" layoutY="14.0" onMouseClicked="#ChangeStyleGreen" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="Green" />
+               </children>
+            </Pane>
+            <Pane fx:id="blue" layoutX="434.0" layoutY="14.0" onMouseClicked="#ChangeStyleBlue" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="Blue" />
+               </children>
+            </Pane>
+            <Pane fx:id="black" layoutX="434.0" layoutY="211.0" onMouseClicked="#ChangeStyleBlack" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="Black" textFill="WHITE" />
+               </children>
+            </Pane>
+            <Pane fx:id="brown" layoutX="224.0" layoutY="211.0" onMouseClicked="#ChangeStyleBrown" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="Brown" />
+               </children>
+            </Pane>
+            <Pane fx:id="white" layoutX="14.0" layoutY="211.0" onMouseClicked="#ChangeStyleWhite" prefHeight="148.0" prefWidth="150.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="117.0" text="White" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
